@@ -150,7 +150,7 @@ public class Utils {
     }
 
     public static String getServerURL() {
-        return String.format(Constants.OTA_URL, SystemProperties.get(Constants.PROP_BUILD_VERSION), SystemProperties.get(Constants.PROP_DEVICE));
+		return String.format(Constants.OTA_URL);
     }
 
     public static String getMaintainerURL(String username) {
